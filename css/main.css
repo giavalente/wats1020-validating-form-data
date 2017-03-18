@@ -3,16 +3,30 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* Red background for page-warning */
+p.lead {
+  background: #f2dede;
+}
+/* Red styling for error messages */
+ label.error {
+  color: #a94442;
+  border-color: #ebccd1;
+}
+/* Red styling for error field background */
+ input.error {
+  background: #f2dede;
+  border-color: #a94442;
+}
 
-
-
-
-
-
-
-
-
-
+/* Green styling for valid fields */
+ input.valid {
+  background: #CCE5C7;
+  border-color: #4A823F;
+}
+/* Green styling for success message on form submission */
+ div.jumbotron {
+  background-color: #CCE5C7;
+}
 
 
 
